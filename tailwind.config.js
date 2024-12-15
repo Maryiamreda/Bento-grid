@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        waterline: ['Waterline', 'sans-serif'], // Add Waterline here
+      },
       colors: {
         purple: {
           100: 'hsl(254, 88%, 90%)',

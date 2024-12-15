@@ -1,8 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+  font-family: 'DM Sans';
+  src: url('../public/assets/fonts/DMSans-VariableFont_opsz,wght.ttf') format('truetype'),
+       url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'DM Sans', sans-serif; /* Default font */
   line-height: 1.5;
   font-weight: 400;
 background-color:hsl(0, 0%, 96%);
@@ -14,6 +23,8 @@ background-color:hsl(0, 0%, 96%);
 } 
 
 body {
+  font-family: "DM Sans";
+
   margin: 0;
   display: flex;
   place-items: center;
