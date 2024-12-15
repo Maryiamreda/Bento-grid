@@ -8,7 +8,16 @@ function App() {
         Create and <br /> schedule <br /> content<br /> <span className='italic text-purple-500 '>quicker.</span>
         <img src={Create} className='w-40 pt-2' />
       </div>
-      <div className="bg-purple-500 col-span-2 h- "></div>
+      <div className="bg-purple-500 col-span-2 text-white flex flex-col justify-center items-center gap-2 ">
+        <p className='font-medium text-5xl'>
+          Social Media <span className='text-yellow-500'>10x</span><br />
+          <span className='italic'>Faster with  AI</span>
+        </p>
+
+        <img src='../public/assets/images/illustration-five-stars.webp' className='w-36' />
+        <p className='text-sm opacity-85' >   Over 4,000 5-star reviews
+        </p>
+      </div>
       <div className="bg-purple-200 row-span-2 col-start-4 "></div>
       <div className="bg-yellow-500 h-[325px] col-start-1 row-start-2 mt-20  "></div>
       <div className="bg-white row-start-2 col-start-2 "></div>
