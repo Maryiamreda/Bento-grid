@@ -4,3 +4,14 @@
   padding: 2rem;
   text-align: center;
 }
+.gridbox{
+  display: grid;
+  gap:6px;
+  grid-template-columns: auto auto auto auto;
+
+  grid-template-rows: 70px 50px 50px ;
+
+}
+.gridbox div{
+  border-radius: 5px;
+}
