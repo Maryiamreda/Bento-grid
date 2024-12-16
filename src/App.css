@@ -6,3 +6,7 @@
  div{
   border-radius: 5px;
 }
+.container div{
+  box-shadow: 0 4px 8px 0 rgba(70, 69, 69, 0.1), 0 6px 20px 0 rgba(70, 69, 69, 0.1);
+
+}
