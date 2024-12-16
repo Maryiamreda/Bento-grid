@@ -3,8 +3,8 @@ import Create from '../public/assets/images/illustration-create-post.webp'
 function App() {
   // grid-cols-4 grid-rows-4
   return (
-    <div className=" container grid gap-6  grid-cols-4-cols-18vw grid-rows-[250px_190px_190px]">
-      <div className="bg-yellow-100 h-[325px] text-2xl leading-6 font-semibold text-start flex flex-col justify-center pl-7 ">
+    <div className=" container p-5 md:p-0 flex flex-col md:grid gap-6  grid-cols-4-cols-18vw grid-rows-[250px_190px_190px]">
+      <div className="bg-yellow-100 md:h-[325px] text-2xl leading-6 font-semibold text-start flex flex-col justify-center pl-7 ">
         Create and <br /> schedule <br /> content<br /> <span className='italic text-purple-500 '>quicker.</span>
         <img src={Create} className='w-40 pt-2' />
       </div>
@@ -26,7 +26,7 @@ function App() {
         <p className='text-sm opacity-85 p-5'>  Optimize post timings <br /> to publish content at <br /> the perfect time for <br /> your audience.
         </p>
       </div>
-      <div className="bg-yellow-500 h-[325px] col-start-1 row-start-2 mt-20 text-start p-5   ">
+      <div className="bg-yellow-500 md:h-[325px] col-start-1 row-start-2 mt-20 text-start p-5   ">
         <p className=' text-2xl leading-6 font-semibold '>  Write your<br /> content<br /> using AI.
         </p>
         <img src='../public/assets/images/illustration-ai-content.webp' className='w-44 max-w-max pt-11' />

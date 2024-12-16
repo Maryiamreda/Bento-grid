@@ -16,6 +16,6 @@ transition: 150ms ease;
 }
 .container div:hover {
   scale: 1.09; /* Scales to 1.05x (5% larger) */
-  box-shadow: 0 4px 8px 0 rgba(70, 69, 69, 0.3), 0 6px 20px 0 rgba(70, 69, 69, 0.3);
+  box-shadow: 0 4px 8px 0 rgba(70, 69, 69, 0.5), 0 6px 20px 0 rgba(70, 69, 69, 0.5);
 
 }
