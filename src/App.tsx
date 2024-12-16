@@ -26,10 +26,10 @@ function App() {
         <p className='text-sm opacity-85 p-5'>  Optimize post timings <br /> to publish content at <br /> the perfect time for <br /> your audience.
         </p>
       </div>
-      <div className="bg-yellow-500 h-[325px] col-start-1 row-start-2 mt-20 text-start  ">
+      <div className="bg-yellow-500 h-[325px] col-start-1 row-start-2 mt-20 text-start p-5   ">
         <p className=' text-2xl leading-6 font-semibold '>  Write your<br /> content<br /> using AI.
         </p>
-        <img src='../public/assets/images/illustration-ai-content.webp' />
+        <img src='../public/assets/images/illustration-ai-content.webp' className='w-44 max-w-max pt-11' />
       </div>
       <div className="bg-white row-start-2 col-start-2 ">
         <img src='../public/assets/images/illustration-multiple-platforms.webp ' />
