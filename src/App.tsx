@@ -22,16 +22,39 @@ function App() {
         <p className='text-2xl  font-semibold leading-5 p-5 '>  Schedule to<br /> social media.
         </p>
         <img src='../public/assets/images/illustration-schedule-posts.webp'
-          className=' w-[280px] max-w-[280px] relative left-[25px] ' />
+          className=' w-[280px] max-w-[280px] relative left-[25px] shadow-sm ' />
         <p className='text-sm opacity-85 p-5'>  Optimize post timings <br /> to publish content at <br /> the perfect time for <br /> your audience.
         </p>
       </div>
-      <div className="bg-yellow-500 h-[325px] col-start-1 row-start-2 mt-20  "></div>
-      <div className="bg-white row-start-2 col-start-2 "></div>
-      <div className="bg-yellow-500 row-start-2 col-start-3 "></div>
-      <div className="bg-white row-start-3 col-start-2 "></div>
+      <div className="bg-yellow-500 h-[325px] col-start-1 row-start-2 mt-20 text-start  ">
+        <p className=' text-2xl leading-6 font-semibold '>  Write your<br /> content<br /> using AI.
+        </p>
+        <img src='../public/assets/images/illustration-ai-content.webp' />
+      </div>
+      <div className="bg-white row-start-2 col-start-2 ">
+        <img src='../public/assets/images/illustration-multiple-platforms.webp ' />
 
-      <div className="bg-purple-500 row-start-3 col-start-3 col-span-2 "></div>
+        <p>  Manage<br /> multiple<br /> accounts and <br />platforms.
+        </p>
+      </div>
+      <div className="bg-yellow-500 row-start-2 col-start-3 ">
+        <p>  Maintain a consistent posting schedule.        </p>
+        <img src='../public/assets/images/illustration-consistent-schedule.webp ' />
+
+      </div>
+      <div className="bg-white row-start-3 col-start-2 ">
+        <h1>&gt;56%</h1>
+        <p>faster audience growth</p>
+        <img src='../public/assets/images/illustration-audience-growth.webp ' />
+
+      </div>
+
+      <div className="bg-purple-500 row-start-3 col-start-3 col-span-2 flex ">
+        <img src='../public/assets/images/illustration-grow-followers.webp ' />
+
+        Grow followers <br />with non-stop <br />content.
+
+      </div>
 
     </div>
   );
