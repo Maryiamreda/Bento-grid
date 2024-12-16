@@ -31,10 +31,10 @@ function App() {
         </p>
         <img src='../public/assets/images/illustration-ai-content.webp' className='w-44 max-w-max pt-11' />
       </div>
-      <div className="bg-white row-start-2 col-start-2 ">
-        <img src='../public/assets/images/illustration-multiple-platforms.webp ' />
+      <div className="bg-white row-start-2 col-start-2  p-5 overflow-hidden">
+        <img src='../public/assets/images/illustration-multiple-platforms.webp ' className='w-56 max-w-max' />
 
-        <p>  Manage<br /> multiple<br /> accounts and <br />platforms.
+        <p className=' text-xl text-start  opacity-90 leading-5 font-semibold '>  Manage<br /> multiple<br /> accounts and <br />platforms.
         </p>
       </div>
       <div className="bg-yellow-500 row-start-2 col-start-3 ">
