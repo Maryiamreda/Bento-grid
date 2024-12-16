@@ -49,10 +49,9 @@ function App() {
 
       </div>
 
-      <div className="bg-purple-500 row-start-3 col-start-3 col-span-2 flex ">
-        <img src='../public/assets/images/illustration-grow-followers.webp ' />
-
-        Grow followers <br />with non-stop <br />content.
+      <div className="bg-purple-500 row-start-3 col-start-3 col-span-2 flex gap-2 text-white p-5 ">
+        <img src='../public/assets/images/illustration-grow-followers.webp ' className='w-44 max-w-max' />
+        <h1 className='text-3xl  font-medium leading-7 pt-8 text-start'>Grow followers <br />with non-stop <br />content.</h1>
 
       </div>
 
