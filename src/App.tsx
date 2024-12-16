@@ -42,10 +42,10 @@ function App() {
         <img src='../public/assets/images/illustration-consistent-schedule.webp ' />
 
       </div>
-      <div className="bg-white row-start-3 col-start-2 ">
-        <h1>&gt;56%</h1>
-        <p>faster audience growth</p>
-        <img src='../public/assets/images/illustration-audience-growth.webp ' />
+      <div className="bg-white row-start-3 col-start-2 flex flex-col justify-center items-center gap-2">
+        <h1 className='font-medium text-5xl'>&gt;56%</h1>
+        <p className='text-sm font-medium opacity-95 p-1'>faster audience growth</p>
+        <img src='../public/assets/images/illustration-audience-growth.webp ' className='w-32 max-w-max' />
 
       </div>
 
