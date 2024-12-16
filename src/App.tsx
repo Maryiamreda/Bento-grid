@@ -37,9 +37,9 @@ function App() {
         <p className=' text-xl text-start  opacity-90 leading-5 font-semibold '>  Manage<br /> multiple<br /> accounts and <br />platforms.
         </p>
       </div>
-      <div className="bg-yellow-500 row-start-2 col-start-3 ">
-        <p>  Maintain a consistent posting schedule.        </p>
-        <img src='../public/assets/images/illustration-consistent-schedule.webp ' />
+      <div className="bg-yellow-500 row-start-2 col-start-3 p-5 ">
+        <p className=' text-xl text-start  opacity-90 leading-5 font-semibold '>  Maintain a consistent<br /> posting<br /> schedule.        </p>
+        <img src='../public/assets/images/illustration-consistent-schedule.webp ' className='w-36 max-w-max md:mt-7' />
 
       </div>
       <div className="bg-white row-start-3 col-start-2 flex flex-col justify-center items-center gap-2">
