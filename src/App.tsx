@@ -4,7 +4,9 @@ import FiveStars from './assets/illustration-five-stars.webp'
 import SchedulePosts from './assets/illustration-schedule-posts.webp'
 import AI from './assets/illustration-ai-content.webp'
 import Multiple from './assets/illustration-multiple-platforms.webp'
-
+import GrowFollowers from './assets/illustration-grow-followers.webp'
+import Audience from './assets/illustration-audience-growth.webp'
+import Consistent from './assets/illustration-consistent-schedule.webp'
 function App() {
   // grid-cols-4 grid-rows-4
   return (
@@ -44,18 +46,18 @@ function App() {
       </div>
       <div className="bg-yellow-500 row-start-2 col-start-3 p-5  overflow-hidden">
         <p className=' text-xl text-start  opacity-90 leading-5 font-semibold '>  Maintain a consistent<br /> posting<br /> schedule.        </p>
-        <img src='./assets/illustration-consistent-schedule.webp ' className='w-36 max-w-max md:mt-7' />
+        <img src={Consistent} className='w-36 max-w-max md:mt-7' />
 
       </div>
       <div className="bg-white row-start-3 col-start-2 flex flex-col justify-center items-center gap-2">
         <h1 className='font-medium text-5xl'>&gt;56%</h1>
         <p className='text-sm font-medium opacity-95 p-1'>faster audience growth</p>
-        <img src='./assets/illustration-audience-growth.webp ' className='w-32 max-w-max' />
+        <img src={Audience} className='w-32 max-w-max' />
 
       </div>
 
       <div className="bg-purple-500 row-start-3 col-start-3 col-span-2 flex gap-2 text-white p-5  ">
-        <img src='./assets/illustration-grow-followers.webp ' className='w-44 max-w-max' />
+        <img src={GrowFollowers} className='w-44 max-w-max' />
         <h1 className='text-3xl  font-medium leading-7 pt-8 text-start'>Grow followers <br />with non-stop <br />content.</h1>
 
       </div>
