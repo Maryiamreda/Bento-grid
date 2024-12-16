@@ -37,7 +37,7 @@ function App() {
         <p className=' text-xl text-start  opacity-90 leading-5 font-semibold '>  Manage<br /> multiple<br /> accounts and <br />platforms.
         </p>
       </div>
-      <div className="bg-yellow-500 row-start-2 col-start-3 p-5 ">
+      <div className="bg-yellow-500 row-start-2 col-start-3 p-5  overflow-hidden">
         <p className=' text-xl text-start  opacity-90 leading-5 font-semibold '>  Maintain a consistent<br /> posting<br /> schedule.        </p>
         <img src='../public/assets/images/illustration-consistent-schedule.webp ' className='w-36 max-w-max md:mt-7' />
 
@@ -49,7 +49,7 @@ function App() {
 
       </div>
 
-      <div className="bg-purple-500 row-start-3 col-start-3 col-span-2 flex gap-2 text-white p-5 ">
+      <div className="bg-purple-500 row-start-3 col-start-3 col-span-2 flex gap-2 text-white p-5  ">
         <img src='../public/assets/images/illustration-grow-followers.webp ' className='w-44 max-w-max' />
         <h1 className='text-3xl  font-medium leading-7 pt-8 text-start'>Grow followers <br />with non-stop <br />content.</h1>
 

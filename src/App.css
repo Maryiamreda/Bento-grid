@@ -11,6 +11,11 @@ div {
 .container div {
   box-shadow: 0 4px 8px 0 rgba(70, 69, 69, 0.1), 0 6px 20px 0 rgba(70, 69, 69, 0.1);
   cursor: pointer;
+transition: 150ms ease;
 
+}
+.container div:hover {
+  scale: 1.09; /* Scales to 1.05x (5% larger) */
+  box-shadow: 0 4px 8px 0 rgba(70, 69, 69, 0.3), 0 6px 20px 0 rgba(70, 69, 69, 0.3);
 
 }
